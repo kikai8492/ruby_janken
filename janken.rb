@@ -6,7 +6,7 @@ class Player
     puts "0:グー, 1:チョキ, 2:パー"
     # 変数「input_hand」にプレイヤーの入力値を代入します。
     # ヒント：getsメソッドについて調べてみましょう。
-    input_hand =
+    input_hand = gets.chomp.to_i
     # 「input_hand」が「0, 1, 2」のいずれかだと繰り返し処理を終了し、それ以外（アルファベットも含む）だと繰り返し処理を継続します。
     while true
       # if 「input_hand」が「0, 1, 2」のいずれかの場合だった場合
